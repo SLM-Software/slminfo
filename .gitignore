@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+#
+# SLM .gitignore file for API's
+#
+
+# IntelliJ project files
+.idea
+*.iml
+logs/
+vendor/
