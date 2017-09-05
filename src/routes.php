@@ -2,7 +2,7 @@
 //Routes
 
 $app->get(
-    '/version', function ($request, $response, $args) {
+    '/slm/api/slminfo/version', function ($request, $response, $args) {
     $this->logger->info("version '/' route");
 
     $data = array('year' => '2017', 'build' => '1');

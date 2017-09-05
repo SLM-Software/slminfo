@@ -5,8 +5,15 @@
       <paths name="localhost">
         <serverdata>
           <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/slm/api" />
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/codeception.yml" />
+            <excludedPath local="true" path="$PROJECT_DIR$/composer.json" />
+            <excludedPath local="true" path="$PROJECT_DIR$/composer.lock" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/.gitignore" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
