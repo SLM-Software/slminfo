@@ -51,10 +51,10 @@ class SLMInfoTest extends \Codeception\Test\Unit
 	}
 
 	// tests
-	public function testVersion()
+	public function testGetVersion()
 	{
 		$mySLMInfo = new \API\SLMInfo($this->logger);
-		$this->apiResults = $mySLMInfo->version();
+		$this->apiResults = $mySLMInfo->getVersion();
 		$this->outputReturnStringData();
 		$this->assertTrue($this->apiResults['retPack']['version'] == 2017);
 		$this->logger->debug('test has been run');
@@ -64,7 +64,7 @@ class SLMInfoTest extends \Codeception\Test\Unit
 	public function testBuild()
 	{
 		$mySLMInfo = new \API\SLMInfo($this->logger);
-		$this->apiResults = $mySLMInfo->version();
+		$this->apiResults = $mySLMInfo->getVersion();
 		$this->outputReturnStringData();
 		$this->assertTrue($this->apiResults['retPack']['build'] == 1);
 		$this->logger->debug('test has been run');

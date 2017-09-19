@@ -5,8 +5,9 @@ $app->get(
     '/slm/api/slminfo/version', function ($request, $response, $args) {
     $this->logger->info("version '/' route");
 
-    $data = array('year' => '2017', 'build' => '1');
-    return $response->withJson($data);
+    $mySLMInfo = new \API\SLMInfo($this->logger);
+
+    return $response->withJson($mySLMInfo->getVersion());
 });
 
 $app->get(

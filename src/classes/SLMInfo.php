@@ -41,7 +41,7 @@ class SLMInfo
 	 *                      custMsg is the message that is displayed to the end user (customer or member)
 	 *                      retPack is the payload that is return to the caller
 	 */
-	public function version()
+	public function getVersion()
 	{
 		$this->myLogger->debug(__METHOD__);
 
