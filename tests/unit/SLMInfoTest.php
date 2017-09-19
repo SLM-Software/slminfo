@@ -75,8 +75,8 @@ class SLMInfoTest extends \Codeception\Test\Unit
 	{
 		//codecept_debug('$resultString = ' . implode(',', $this->apiResults));
 		codecept_debug('errCode = ' . $this->apiResults['errCode']);
-		codecept_debug('errText = ' . $this->apiResults['errText']);
-		codecept_debug('errLoc = ' . $this->apiResults['errLoc']);
+		codecept_debug('statusText = ' . $this->apiResults['statusText']);
+		codecept_debug('codeLoc = ' . $this->apiResults['codeLoc']);
 		codecept_debug('custMsg = ' . $this->apiResults['custMsg']);
 		codecept_debug('version = ' . $this->apiResults['retPack']['version']);
 		codecept_debug('build = ' . $this->apiResults['retPack']['build']);

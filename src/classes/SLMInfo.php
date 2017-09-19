@@ -34,10 +34,10 @@ class SLMInfo
 	 * @example http://localhost/slm_api/slminfo/version This will return the version and the build.
 	 *
 	 *
-	 * @return array  Keys: errCode, errText, errLoc, custMsg, retPack
+	 * @return array Keys: errCode, statusText, codeLoc, custMsg, retPack
 	 *                      errCode is 0 for Success or 900 for error
-	 *                      errText contains system generated error message for debugging
-	 *                      errLoc is the class and method that throw the error
+	 *                      statusText contains system generated error message for debugging
+	 *                      codeLoc is the class and method that throw the error
 	 *                      custMsg is the message that is displayed to the end user (customer or member)
 	 *                      retPack is the payload that is return to the caller
 	 */
@@ -47,7 +47,7 @@ class SLMInfo
 
 		//@todo The version and build needs to be moved to a configuration file, so it can be updated by the build process.
 
-		return array('errCode' => 0, 'errText' => '', 'errLoc' => __METHOD__, 'custMsg' => '', 'retPack' => array('version' => '2017', 'build' => '1'));
+		return array('errCode' => 0, 'statusText' => '', 'codeLoc' => __METHOD__, 'custMsg' => '', 'retPack' => array('version' => '2017', 'build' => '1'));
 	}
 
 	/**
