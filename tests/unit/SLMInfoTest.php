@@ -55,7 +55,7 @@ class SLMInfoTest extends \Codeception\Test\Unit
 	{
 		$mySLMInfo = new \API\SLMInfo($this->logger);
 		$this->apiResults = $mySLMInfo->getVersion();
-		$this->outputReturnStringData();
+		codecept_debug($this->apiResults);
 		$this->assertTrue($this->apiResults['retPack']['version'] == 2017);
 		$this->logger->debug('test has been run');
 
@@ -65,20 +65,9 @@ class SLMInfoTest extends \Codeception\Test\Unit
 	{
 		$mySLMInfo = new \API\SLMInfo($this->logger);
 		$this->apiResults = $mySLMInfo->getVersion();
-		$this->outputReturnStringData();
+		codecept_debug($this->apiResults);
 		$this->assertTrue($this->apiResults['retPack']['build'] == 1);
 		$this->logger->debug('test has been run');
 
-	}
-
-	protected function outputReturnStringData()
-	{
-		//codecept_debug('$resultString = ' . implode(',', $this->apiResults));
-		codecept_debug('errCode = ' . $this->apiResults['errCode']);
-		codecept_debug('statusText = ' . $this->apiResults['statusText']);
-		codecept_debug('codeLoc = ' . $this->apiResults['codeLoc']);
-		codecept_debug('custMsg = ' . $this->apiResults['custMsg']);
-		codecept_debug('version = ' . $this->apiResults['retPack']['version']);
-		codecept_debug('build = ' . $this->apiResults['retPack']['build']);
 	}
 }
