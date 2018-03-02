@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="php@e07c5b8c-ade3-4c28-a251-34d83798e41b">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/opt/lappstack/v-7.1.14-0/apache2/htdocs/eden/api/edeninfo" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

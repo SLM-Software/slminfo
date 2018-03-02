@@ -53,7 +53,7 @@ class SLMInfoTest extends \Codeception\Test\Unit
 	// tests
 	public function testGetVersion()
 	{
-		$mySLMInfo = new \API\SLMInfo($this->logger);
+		$mySLMInfo = new \API\EDENInfo($this->logger);
 		$this->apiResults = $mySLMInfo->getVersion();
 		codecept_debug($this->apiResults);
 		$this->assertTrue($this->apiResults['retPack']['version'] == 2017);
@@ -63,7 +63,7 @@ class SLMInfoTest extends \Codeception\Test\Unit
 
 	public function testBuild()
 	{
-		$mySLMInfo = new \API\SLMInfo($this->logger);
+		$mySLMInfo = new \API\EDENInfo($this->logger);
 		$this->apiResults = $mySLMInfo->getVersion();
 		codecept_debug($this->apiResults);
 		$this->assertTrue($this->apiResults['retPack']['build'] == 1);

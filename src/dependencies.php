@@ -19,10 +19,12 @@ $container['logger'] = function ($c) {
 };
 
 // database - postgres
-$container['db'] = function ($c) {
-    $settings = $c->get('settings')['db'];
-    $pdo = new PDO('pgsql:slm-dev-syacko-01.yackofamily.com, 5432, slmdb', 'slmadmin','Yidiao01');
-    $pdo->setAttribute(PDO::ATTR_CASE, PDO::CASE_LOWER);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    return $pdo;
+$container['db'] = function ($c)
+{
+	$settings = $c->get('settings')['db'];
+	$pdo = new PDO($settings['dns'], $settings['username'], $settings['password']);
+	$pdo->setAttribute(PDO::ATTR_CASE, PDO::CASE_LOWER);
+	$pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
+	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	return $pdo;
 };

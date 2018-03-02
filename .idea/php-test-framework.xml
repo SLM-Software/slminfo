@@ -6,6 +6,7 @@
         <settings>
           <configurations>
             <local_configuration executable_path="$PROJECT_DIR$/vendor/codeception/codeception/codecept" />
+            <configuration_by_sdk interpreter_id="606bf4e3-d253-4ab2-bde6-f85fe17c4fee" executable_path="/opt/lappstack-7.1.7-0/apache2/htdocs/slm_api/slminternal/vendor/codeception/codeception/codecept" />
           </configurations>
         </settings>
       </tool>
