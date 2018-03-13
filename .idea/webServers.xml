@@ -10,13 +10,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="e3b1bc8e-d771-4770-8c50-2f1f1ef73846" name="Ubuntu Server - EDENINFO" url="http://ubuntu.yackofamily.com">
-        <fileTransfer host="ubuntu.yackofamily.com" port="22" rootFolder="/opt/lappstack/v-7.1.14-0/apache2/htdocs/eden/api/edeninfo" accessType="SFTP">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
-          </advancedOptions>
-          <option name="port" value="22" />
-        </fileTransfer>
+      <webServer id="dc2831a5-7b64-48a6-8b6a-148a7987e903" name="EDEN Local" url="http://localhost/eden/api/edeninfo">
+        <fileTransfer port="0" mountedRoot="/Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo" accessType="MOUNT" />
       </webServer>
     </option>
   </component>

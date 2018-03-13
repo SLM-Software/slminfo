@@ -1,3 +1,299 @@
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T023425.200.json
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T022851.200.json
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T022821.200.json
+
+###
+
+GET https://localhost:8443/edeninfo/versio
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T022815.404.html
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T022736.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T022600.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T021158.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T021108.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T020752.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T020646.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T020542.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T013158.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T013120.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T013102.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T012956.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T012914.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T012352.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T012228.500.txt
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T012207.500.txt
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T012147.200.html
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011331.200.html
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011231.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011223.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011207.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011006.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011004.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T011003.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T010940.200.json
+
+###
+
+GET http://localhost:8080/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T010937.200.json
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T121837.200.json
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T121815.200.json
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T114024.404.html
+
+###
+
+GET https://localhost:8443/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-13T114014.404.html
+
+###
+
+GET https://ubuntu.yackofamily.com/edeninfo/version
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-02T012721.200.json
+
+###
+
 GET http://ubuntu.yackofamily.com/edeninfo/version
 Accept: */*
 Cache-Control: no-cache
@@ -89,310 +385,6 @@ Accept: */*
 Cache-Control: no-cache
 
 <> 2018-02-27T054521.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054512.200.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/public
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054413.200.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/*
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054404.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054341.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054340.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054336.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054335.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054334.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054246.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054245.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054244.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054243.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054241.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054240.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054100.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054057-1.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054057.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054056.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054055.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054054.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T054052.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053950.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053948.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053947.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053945.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053759-1.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053759.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053758.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053756.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053703.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053700.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053656.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053032.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053031-1.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053031.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T053030.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T052319.404.html
-
-###
-
-GET http://ubuntu.yackofamily.com/eden/api/edeninfo/version
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-02-27T052318.404.html
 
 ###
 

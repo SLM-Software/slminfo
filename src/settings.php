@@ -26,7 +26,7 @@ return [
 		// Monolog settings
 		'logger'                 => [
 			'name'  => 'EDENINFO',
-			'path'  => __DIR__ . $_ENV['LOG_PATH'] . 'edeninfo_'. $_ENV['LOG_FILENAME'],
+			'path'  => __DIR__ . $_ENV['LOG_PATH'] . 'edeninfo.log',
 			'level' => $_ENV['LOG_LEVEL'],
 		],
     ],
