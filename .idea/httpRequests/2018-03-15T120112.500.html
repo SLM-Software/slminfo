@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <title>Slim Application Error</title>
+    <style>body {
+        margin: 0;
+        padding: 30px;
+        font: 12px/1.5 Helvetica, Arial, Verdana, sans-serif;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 48px;
+        font-weight: normal;
+        line-height: 48px;
+    }
+
+    strong {
+        display: inline-block;
+        width: 65px;
+    }</style>
+</head>
+<body><h1>Slim Application Error</h1>
+<p>The application could not run because of the following error:</p>
+<h2>Details</h2>
+<div><strong>Type:</strong> Error</div>
+<div><strong>Message:</strong> Call to a member function response() on null</div>
+<div><strong>File:</strong> /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/src/middleware.php</div>
+<div><strong>Line:</strong> 45</div>
+<h2>Trace</h2>
+<pre>#0 [internal function]: Middleware-&gt;__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#1 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/DeferredCallable.php(43): call_user_func_array(Object(Middleware), Array)
+#2 [internal function]: Slim\DeferredCallable-&gt;__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#3 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(70): call_user_func(Object(Slim\DeferredCallable), Object(Slim\Http\Request), Object(Slim\Http\Response), Object(Slim\Route))
+#4 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\Route-&gt;Slim\{closure}(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#5 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/Route.php(313): Slim\Route-&gt;callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#6 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/App.php(495): Slim\Route-&gt;run(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#7 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/MiddlewareAwareTrait.php(117): Slim\App-&gt;__invoke(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#8 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/App.php(388): Slim\App-&gt;callMiddlewareStack(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#9 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/vendor/slim/slim/Slim/App.php(296): Slim\App-&gt;process(Object(Slim\Http\Request), Object(Slim\Http\Response))
+#10 /Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/public/index.php(30): Slim\App-&gt;run()
+#11 {main}</pre>
+</body>
+</html>$headers['Authorization']=XXeyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5VTkJNamMzUkVVeE9EZzVOelk1TVRBeFJESkdOVVUzT1RaR09ETkRNRVkzUkRVNU1EZ3dOZyJ9.eyJpc3MiOiJodHRwczovL3Nwb3RsaWdodG1hcnRkZXYuYXV0aDAuY29tLyIsInN1YiI6IjFtU1k5aXBEc3BZNlYyRDFZeldxSDZjTjVRSHlVQldzQGNsaWVudHMiLCJhdWQiOiJodHRwczovLzE5Mi4xNjguNDEuNzUvZWRlbmluZm8iLCJpYXQiOjE1MjEwNjk1MTAsImV4cCI6MTUyMTE1NTkxMCwiYXpwIjoiMW1TWTlpcERzcFk2VjJEMVl6V3FINmNONVFIeVVCV3MiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.ddmRBJr_KoquvtgDgVzLHrGZYz5pn8rF49mNhSE3z7-7D-856T-QDMY35k7NSMNY_nhx1QkrVqdr4S8P7o1jgpXR5p7yoyMxo-fJ6C1DU6bBMwr0P2l0ftBs4lIdsFj94X1CKdYQUlQy6Dxk-UMmGt85YElvuozW7rB-rDoe2adQKEeM3fm4Ar6cuMTZMQNeTRkxx4Rg-cPCHuIFWYG-FzxUNWmvtpY6cJ3e9cJWLFAp9ZiTjL5p6bi7uPX5hpdtAoEox-L17B0S8Vz2kzXfkO2OIUkOpj8-pa0o3EfoKapoPUxCYkBe9noHzI2fCf009y6MQunDUzWmLjurAMbOuA

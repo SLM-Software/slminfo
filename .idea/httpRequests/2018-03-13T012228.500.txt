@@ -1,7 +1,0 @@
-\__DIR__=/Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/src
-
-$_ENV['LOG_PATH']=/../../logs/
-
-$_ENV['LOG_PATH']=/../../logs/edeninfo.log
-
-Full Path=/Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/src/../../logs/edeninfo.log
