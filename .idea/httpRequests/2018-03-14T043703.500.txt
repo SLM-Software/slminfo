@@ -1,0 +1,12 @@
+<pre class='xdebug-var-dump' dir='ltr'>
+<small>/Applications/mappstack/v7.1.14-0/apache2/htdocs/eden/api/edeninfo/src/middleware.php:13:</small>
+<b>array</b> <i>(size=8)</i>
+  'Accept' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'*/*'</font> <i>(length=3)</i>
+  'Cache-Control' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'no-cache'</font> <i>(length=8)</i>
+  'Authorization' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6Ik5VTkJNamMzUkVVeE9EZzVOelk1TVRBeFJESkdOVVUzT1RaR09ETkRNRVkzUkRVNU1EZ3dOZyJ9.eyJpc3MiOiJodHRwczovL3Nwb3RsaWdodG1hcnRkZXYuYXV0aDAuY29tLyIsInN1YiI6IjFtU1k5aXBEc3BZNlYyRDFZeldxSDZjTjVRSHlVQldzQGNsaWVudHMiLCJhdWQiOiJodHRwczovLzE5Mi4xNjguNDEuNzUvZWRlbmluZm8iLCJpYXQiOjE1MjEwNjk1MTAsImV4cCI6MTUyMTE1NTkxMCwiYXpwIjoiMW1TWTlpcERzcFk2VjJEMVl6V3FINmNONVFIeVVCV3MiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMifQ.ddmRBJr_KoquvtgDgVzLHrGZYz5pn8rF49mNhSE3z7-7D-856T-QDMY35k7NSMNY_nhx1'...</font> <i>(length=785)</i>
+  'Host' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'localhost:8443'</font> <i>(length=14)</i>
+  'Connection' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Keep-Alive'</font> <i>(length=10)</i>
+  'User-Agent' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'Apache-HttpClient/4.5.2 (Java/1.8.0_152-release)'</font> <i>(length=48)</i>
+  'Cookie' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'PHPSESSID=vlelj9up6jl2luiicgn1crto5e'</font> <i>(length=36)</i>
+  'Accept-Encoding' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'gzip,deflate'</font> <i>(length=12)</i>
+</pre>
