@@ -14,6 +14,7 @@ class Middleware
 	public function __construct($container)
 	{
 		$this->container = $container;
+		$this->container->logger->debug(__METHOD__);
 	}
 
 	/**
@@ -24,14 +25,23 @@ class Middleware
 	 */
 	public function __invoke($request, $response, $next)
 	{
-//		$this->myLogger->debug(__METHOD__);
+		$this->container->logger->debug(__METHOD__);
 
 		$headers = getallheaders();
 		$myResponse = $response;
 
+		if ($_SERVER[SERVER_NAME] == 'localhost')
+		{
+			$audiences = "https://$_SERVER[SERVER_NAME]/edeninfo";
+		} else
+		{
+			$audiences = "https://$_SERVER[HTTP_HOST]/edeninfo";
+		}
+		$this->container->logger->debug("\$audiences=$audiences");
+
 		try
 		{
-			$verifier = new JWTVerifier(['valid_audiences' => [$_ENV['APP_VALID_AUDIENCES']],
+			$verifier = new JWTVerifier(['valid_audiences' => [$audiences],
 			                             'authorized_iss'  => [$_ENV['APP_ISSUER']],
 			                             'supported_algs'  => [$_ENV['APP_ALGORITHMS']]
 			]);
