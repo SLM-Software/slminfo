@@ -31,9 +31,9 @@ class Middleware
 
 		try
 		{
-			$verifier = new JWTVerifier(['valid_audiences' => ['https://192.168.41.75/edeninfo'],
-			                             'authorized_iss'  => ['https://spotlightmartdev.auth0.com/'],
-			                             'supported_algs'  => ['RS256']
+			$verifier = new JWTVerifier(['valid_audiences' => [$_ENV['APP_VALID_AUDIENCES']],
+			                             'authorized_iss'  => [$_ENV['APP_ISSUER']],
+			                             'supported_algs'  => [$_ENV['APP_ALGORITHMS']]
 			]);
 			$verifier->verifyAndDecode($headers['Authorization']);
 		} catch (InvalidTokenException $e)
@@ -57,66 +57,3 @@ class Middleware
 		return $myResponse;
 	}
 }
-
-
-
-
-//use Auth0\SDK\JWTVerifier;
-//use Auth0\SDK\Helpers\Cache\FileSystemCacheHandler;
-//use Psr\Http\Message\ServerRequestInterface;
-//use Psr\Http\Message\ResponseInterface;
-//use Interop\Container\ContainerInterface;
-
-/**
- * Example middleware closure
- *
- * @param  \Psr\Http\Message\ServerRequestInterface $request  PSR7 request
- * @param  \Psr\Http\Message\ResponseInterface      $response PSR7 response
- * @param  callable                                 $next     Next middleware
- *
- * @return \Psr\Http\Message\ResponseInterface
- */
-//function ($request, $response, $next)
-//{
-//	$response->getBody()->write('BEFORE');
-//	$response = $next($request, $response);
-//	$response->getBody()->write('AFTER');
-//
-//	return $response;
-//};
-//
-//function validateToken()
-//{
-//	try
-//	{
-//		$verifier = new JWTVerifier(['valid_audiences' => ['https://192.168.41.75/edeninfo'],
-//		                             'authorized_iss'  => ['https://spotlightmartdev.auth0.com/'],
-//		                             'supported_algs'  => ['RS256'],
-//		                             'cache'           => new FileSystemCacheHandler() // This parameter is optional. By default no cache is used to fetch the Json Web Keys.]);
-//		]);
-//
-//		$headers = getallheaders();
-//		$decoded = $verifier->verifyAndDecode($headers['Authorization']);
-//	} catch
-//	(InvalidTokenException $e)
-//	{
-//		deny_access();
-//	} catch (CoreException $e)
-//	{
-//		deny_access();
-//	} finally
-//	{
-//		var_dump($decoded);
-//	}
-//};
-//
-///**
-// * Deny Access
-// *
-// */
-//function deny_access()
-//{
-//	$res = $this->app->response();
-//	$res->status(401);
-//	return $res;
-//};

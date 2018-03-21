@@ -14,7 +14,8 @@
         "slim/php-view": "^2.2",
         "monolog/monolog": "1.17",
         "vlucas/phpdotenv": "v2.4",
-        "auth0/auth0-php": "5.1.0"
+        "auth0/auth0-php": "5.1",
+        "lcobucci/jwt": "3.2.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7",
