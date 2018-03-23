@@ -30,20 +30,14 @@ class Middleware
 		$headers = getallheaders();
 		$myResponse = $response;
 
-		if ($_SERVER[SERVER_NAME] == 'localhost')
-		{
-			$audiences = "https://$_SERVER[SERVER_NAME]/edeninfo";
-		} else
-		{
-			$audiences = "https://$_SERVER[HTTP_HOST]/edeninfo";
-		}
+		$audiences = "https://" . $this->container->get('settings')['AUDIENCES_HOST'] . "/edeninfo";
 		$this->container->logger->debug("\$audiences=$audiences");
 
 		try
 		{
 			$verifier = new JWTVerifier(['valid_audiences' => [$audiences],
-			                             'authorized_iss'  => [$_ENV['APP_ISSUER']],
-			                             'supported_algs'  => [$_ENV['APP_ALGORITHMS']]
+			                             'authorized_iss'  => [$this->container->get('settings')['ISSUER']],
+			                             'supported_algs'  => [$this->container->get('settings')['ALGORITHMS']]
 			]);
 			$verifier->verifyAndDecode($headers['Authorization']);
 		} catch (InvalidTokenException $e)
