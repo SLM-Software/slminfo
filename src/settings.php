@@ -1,6 +1,18 @@
 <?php
 
-$dotEnv = new \Dotenv\Dotenv(__DIR__ . '/../../../../../', 'eden.env');
+$envPath = '';
+if (array_key_exists('MAPP', getenv()))
+{
+	$envPath = getenv('MAPP');
+} else if (array_key_exists('LAPP', getenv()))
+{
+	$envPath = getenv('LAPP');
+} else
+{
+	echo 'Missing MAPP or LAPP environment variable! System will not function without this being set.';
+	throw new Exception('Missing MAPP or LAPP environment variable! System will not function without this being set.');
+};
+$dotEnv = new \Dotenv\Dotenv($envPath . '/.env/', 'eden.env');
 $dotEnv->load();
 
 return [
