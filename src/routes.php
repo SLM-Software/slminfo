@@ -13,15 +13,3 @@ $app->group('', function(){
 		return $response->withJson($myEDENInfo->getVersion());
 	});
 })->add(new Middleware($container));
-
-
-// This is not needed as we don't want to provide any information about our API's except to registered users.
-//
-//$app->get(
-//    '//edeninfo/[{name}]', function ($request, $response, $args) {
-//    // Sample log message
-//    $this->logger->info("EDENInfo:catch-all '/' route");
-//
-//    // Render index view
-//    return $this->renderer->render($response, 'index.phtml', $args);
-//});
