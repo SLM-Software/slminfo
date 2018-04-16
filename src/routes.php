@@ -8,9 +8,7 @@ $app->group('', function(){
 	$this->get(
 		'/edeninfo/version', function ($request, $response, $args) {
 		$this->logger->info("version '/' route");
-		$versionSetting = $this->get('settings')['VERSION'];
-		$buildSetting = $this->get('settings')['BUILD'];
-		$myEDENInfo = new \API\EDENInfo($this->logger, $versionSetting, $buildSetting);
+		$myEDENInfo = new \API\EDENInfo($this->logger, $this->get('setting'));
 
 		return $response->withJson($myEDENInfo->getVersion());
 	});
