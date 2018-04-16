@@ -15,20 +15,26 @@ if (array_key_exists('MAPP', getenv()))
 $dotEnv = new \Dotenv\Dotenv($envPath . '/.env/', 'eden.env');
 $dotEnv->load();
 
+$applicationName = 'EDENINFO';
+
 return [
 	'settings' => [
+		'APP_NAME'               => $applicationName,
 		'VERSION'                => $_ENV['APP_VERSION'],
 		'BUILD'                  => $_ENV['APP_BUILD'],
 
 //		Auth0 settings
-		'ISSUER'                 => $_ENV['APP_AUTH0_ISSUER'],
-		'AUDIENCES_HOST'         => $_ENV['APP_AUTH0_AUDIENCES_HOST'],
-		'ALGORITHMS'             => $_ENV['APP_AUTH0_ALGORITHMS'],
+		'AUTH0_ISSUER'           => $_ENV['APP_AUTH0_ISSUER'],
+		'AUTH0_AUDIENCES_HOST'   => $_ENV['APP_AUTH0_AUDIENCES_HOST'],
+		'AUTH0_ALGORITHMS'       => $_ENV['APP_AUTH0_ALGORITHMS'],
+		'AUTH0_CREDPATH'         => $_ENV['APP_AUTH0_CREDPATH'],
+		'AUTH0_CREDPREFIX'       => $_ENV['APP_AUTH0_CREDPREFIX'],
+		'AUTH0_CREDEXT'          => $_ENV['APP_AUTH0_CREDEXT'],
 
 //		 Monolog settings
 		'logger'                 => [
-			'name'  => 'EDENINFO',
-			'path'  => __DIR__ . $_ENV['LOG_PATH'] . 'edeninfo.log',
+			'name'  => $applicationName,
+			'path'  => __DIR__ . $_ENV['LOG_PATH'] . $applicationName . '.log',
 			'level' => $_ENV['LOG_LEVEL'],
 		],
     ],
