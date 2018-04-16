@@ -28,14 +28,9 @@ class EDENInfo
 	protected $myLogger;
 
 	/**
-	 * @var version $versionSettings This has the version of the software.
+	 * @var array $mySettings This contains all the environment settings
 	 */
-	protected $myVersionSetting;
-
-	/**
-	 * @var build $buildSettings This has the build of the software.
-	 */
-	protected $myBuildSetting;
+	protected $mySetting;
 
 	/**
 	 * This will return the version and the build.
@@ -57,7 +52,7 @@ class EDENInfo
 		             'statusText' => '',
 		             'codeLoc' => __METHOD__,
 		             'custMsg' => '',
-		             'retPack' => array('version' => $this->myVersionSetting, 'build' => $this->myBuildSetting));
+		             'retPack' => array('version' => $this->mySetting['VERSION'], 'build' => $this->mySetting['BUILD']));
 	}
 
 	/**
@@ -65,12 +60,12 @@ class EDENInfo
 	 *
 	 * @param $logger
 	 */
-	public function __construct($logger, $versionSetting, $buildSetting)
+	public function __construct($logger, $mySetting)
 	{
 		$this->myLogger = $logger;
 		$this->myLogger->debug(__METHOD__);
 
-		$this->myVersionSetting = $versionSetting;
-		$this->myBuildSetting = $buildSetting;
+		$this->mySetting = $mySetting;
+		$this->myLogger->debug(implode('|', $mySetting));
 	}
 }
