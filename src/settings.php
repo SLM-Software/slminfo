@@ -15,7 +15,7 @@ if (array_key_exists('MAPP', getenv()))
 $dotEnv = new \Dotenv\Dotenv($envPath . '/.env/', 'eden.env');
 $dotEnv->load();
 
-$applicationName = 'EDENINFO';
+$applicationName = 'edeninfo';
 
 return [
 	'settings' => [
