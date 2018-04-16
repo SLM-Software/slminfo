@@ -17,13 +17,15 @@ $dotEnv->load();
 
 return [
 	'settings' => [
-		'ISSUER'                 => $_ENV['APP_ISSUER'],
-		'AUDIENCES_HOST'         => $_ENV['APP_AUDIENCES_HOST'],
-		'ALGORITHMS'             => $_ENV['APP_ALGORITHMS'],
 		'VERSION'                => $_ENV['APP_VERSION'],
 		'BUILD'                  => $_ENV['APP_BUILD'],
 
-		// Monolog settings
+//		Auth0 settings
+		'ISSUER'                 => $_ENV['APP_AUTH0_ISSUER'],
+		'AUDIENCES_HOST'         => $_ENV['APP_AUTH0_AUDIENCES_HOST'],
+		'ALGORITHMS'             => $_ENV['APP_AUTH0_ALGORITHMS'],
+
+//		 Monolog settings
 		'logger'                 => [
 			'name'  => 'EDENINFO',
 			'path'  => __DIR__ . $_ENV['LOG_PATH'] . 'edeninfo.log',
